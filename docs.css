@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* nav styling start here */
+nav {
+  background-color: #047aed;
+}
+nav .container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 300;
+}
+nav a {
+    font-weight: 300;
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  list-style: none;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a:hover {
+  border-bottom: 2px solid white;
+}
+/* nav styling ends here */
+/* ----------------------------------------------- */
+/* Herosection styling start here */
+.herosection {
+  background-color: #047aed;
+  height: 250px;
+}
+.herosection .container {
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.herosection .container div {
+  width: 40%;
+  margin: 2em 0;
+}
+.herosection .container div h1 {
+  font-size: 3rem;
+  margin: 0.5em auto;
+  font-weight: 300;
+}
+.herosection .container div p {
+  line-height: 1.5;
+  font-weight: 300;
+}
+/* Herosection styling end here */
+/* ----------------------------------------------- */
+/* Midsection styling start here */
+.midsection .container {
+  width: 65%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.midsection .container .block-1 {
+  line-height: 1.9;
+  background-color: #f5f7f9;
+  width: 250px;
+  height: 350px;
+  padding: 0.8rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+.midsection .container .block-1 :nth-child(1),
+.midsection .container .block-1 :nth-child(5),
+.midsection .container .block-2 :nth-child(1) {
+  margin: 1em 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.midsection .container .block-1 a {
+  display: block;
+  color: black;
+  font-size: 0.8rem;
+  width: 200px;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+.midsection .container .block-2 {
+  width: 500px;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+.midsection .container .block-2 div {
+  background-color: #117e03;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 5px 0;
+}
+.midsection .container .block-2 p {
+  margin: 0.5em 0;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.midsection .container .block-2 span {
+  display: block;
+  font-size: 0.5rem;
+  color: #ffffff;
+  background-color: #000;
+  width: 100%;
+  padding: 1em;
+}
+.midsection .container .block-2 h2 {
+  font-size: 1rem;
+}
+.midsection .container .block-2 a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #fff;
+  display: block;
+  background-color: #1404ed;
+  padding: 0.7rem 1.5rem;
+  width: 25%;
+  border-radius: 5px;
+}
+/* Midsection2 styling end here */
+/* ----------------------------------------------- */
+/* footer styling start here */
+.footer {
+  background-color: rgb(6, 32, 79);
+  color: #ffffff;
+}
+.footer .container {
+  width: 70%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.footer .menu {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}

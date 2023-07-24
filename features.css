@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* nav styling start here */
+nav {
+  background-color: #047aed;
+}
+nav .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 300;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  list-style: none;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a:hover {
+  border-bottom: 2px solid white;
+}
+/* nav styling ends here */
+/* ----------------------------------------------- */
+/* Herosection styling start here */
+.herosection {
+  background-color: #047aed;
+  height: 250px;
+}
+.herosection .container {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.herosection .container div {
+  width: 40%;
+  margin: 2em 0;
+}
+.herosection .container div h1 {
+  font-size: 3rem;
+  margin: 0.5em auto;
+  font-weight: 300;
+}
+.herosection .container div p {
+  line-height: 1.5;
+  font-weight: 300;
+}
+/* Herosection styling end here */
+/* ----------------------------------------------- */
+/* Midsection1 styling start here */
+.midsection1 {
+  background-color: whitesmoke;
+}
+.midsection1 .container {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.midsection1 .container div {
+  width: 45%;
+  margin: rem 0;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0.5em auto;
+  font-weight: 300;
+}
+/* Midsection1 styling end here */
+/* ----------------------------------------------- */
+/* Midsection2 styling start here */
+.midsection2 .container {
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  row-gap: 20px;
+  align-items: center;
+}
+.midsection2 .container :nth-child(1) {
+  grid-column: 1 / span 3;
+  justify-content: flex-start;
+}
+.midsection2 .container :nth-child(2) {
+  grid-column: 1 / span 2;
+}
+.griditem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.381);
+  height: 130px;
+}
+.griditem p {
+  font-weight: 400;
+  padding: 30px 30px 30px 10px;
+}
+/* Midsection2 styling end here */
+/* ----------------------------------------------- */
+/* footer styling start here */
+.footer {
+  background-color: rgb(6, 32, 79);
+  color: #ffffff;
+}
+.footer .container {
+  width: 1020px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.footer .menu {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
